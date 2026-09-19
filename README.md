@@ -21,15 +21,9 @@ Emergency transfers lose time at the boundaries between ambulances, hospitals an
 
 This repository focuses on making those requirements and assumptions inspectable. It does not present the concept as a finished transport system.
 
-## Repository map
+## Public package status
 
-- [`drawings/`](drawings/) - reviewed 2D engineering drawing set
-- [`models/`](models/) - baseline OBJ/STL/MTL models, dimensions and preview renders
-- [`simulation/`](simulation/) - exploratory Python models and derived figures
-- [`docs/evidence-register.md`](docs/evidence-register.md) - what each artifact supports
-- [`docs/system-boundary.md`](docs/system-boundary.md) - what is outside the demonstrated system
-- [`docs/assumptions.md`](docs/assumptions.md) - modeling assumptions and limits
-- [`docs/ai-assistance.md`](docs/ai-assistance.md) - authorship and tool disclosure
+This repository currently publishes the evidence boundary and project status first. Reviewed drawings, models, simulation code and derived outputs will be added in versioned releases after file-level provenance and metadata checks. The private source archive is not linked here.
 
 ## Evidence boundary
 
@@ -53,4 +47,4 @@ The project concept, historical mockup and personal evidence are Mayank Kasana's
 
 ## Rights
 
-No license is granted by default. See [`LICENSES.md`](LICENSES.md) for artifact-level rights and provenance before reuse.
+No license is granted by default. Artifact-level rights and provenance will accompany each reviewed public release.
