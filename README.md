@@ -14,7 +14,6 @@
 | Proposed | Low-pressure guideway, propulsion/levitation, emergency workflow, sensing and communications |
 | Not validated | Full-scale transport, vacuum operation, levitation, clinical safety, regulatory compliance or real-world performance |
 
-![Baseline pod concept](assets/preview-front.png)
 
 ## Why it exists
 
