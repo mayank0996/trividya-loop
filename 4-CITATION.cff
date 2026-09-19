@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you discuss this exploratory project, cite this repository and the exact revision used."
+title: "Trividya-Loop: exploratory public engineering record"
+type: software
+authors:
+  - family-names: Kasana
+    given-names: Mayank
+repository-code: "https://github.com/mayank0996/trividya-loop"
+url: "https://mayank0996.github.io/"
+date-released: 2026-09-19
+license: NOASSERTION
