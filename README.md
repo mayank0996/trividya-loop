@@ -5,7 +5,7 @@
 > [!IMPORTANT]
 > Trividya-Loop is supported by a person-scale pod mockup, reconstructed drawings, baseline 3D models and exploratory calculations. It is **not** an operational Hyperloop, vacuum transport, levitation or clinical system. Simulation outputs are assumption-driven and are not physical validation.
 
-![Mockup reconstruction](models/mockup-reconstruction/renders/36-front-isometric.png)
+![Mockup reconstruction](models/mockup-reconstruction/renders/front-isometric.png)
 
 ## Current evidence boundary
 
@@ -19,18 +19,18 @@
 
 ## Reviewed public artifacts
 
-- [2D engineering drawing set (PDF)](drawings/7-Trividya-engineering-drawings-v1.pdf) and [individual PNG sheets](drawings/png/)
+- [2D engineering drawing set (PDF)](drawings/Trividya-engineering-drawings-v1.pdf) and [individual PNG sheets](drawings/png/)
 - [Physical mockup reconstruction](models/mockup-reconstruction/) with OBJ/MTL, merged STL, dimensions, renders and explicit photo-estimation limits
 - [Assumed 3D system baseline](models/baseline/) with OBJ/MTL, merged STL, renders and open measurements
 - [Reproducible assumption-driven simulations](simulations/) with scripts, requirements, CSV/JSON outputs and plots
 - [System architecture, pod layout and data workflow](docs/)
-- [Provenance and AI-assistance notice](78-NOTICE.md), [citation metadata](80-CITATION.cff) and [rights](79-LICENSE.md)
+- [Provenance and AI-assistance notice](NOTICE.md), [citation metadata](CITATION.cff) and [rights](LICENSE.md)
 
 ## Example outputs
 
 | Assumed baseline model | Mockup reconstruction | Assumption-driven plot |
 | --- | --- | --- |
-| ![](models/baseline/renders/27-front-isometric.png) | ![](models/mockup-reconstruction/renders/36-front-isometric.png) | ![](simulations/plots/65-exp6-braking.png) |
+| ![](models/baseline/renders/front-isometric.png) | ![](models/mockup-reconstruction/renders/front-isometric.png) | ![](simulations/plots/exp6-braking.png) |
 
 ## Why it exists
 
@@ -40,7 +40,7 @@ This repository makes the assumptions and reconstruction methods inspectable. It
 
 ## Reproduce the calculations
 
-See [`simulations/39-README.md`](simulations/39-README.md). The committed data and plots are reference outputs from the declared baseline. Results change when assumptions change.
+See [`simulations/README.md`](simulations/README.md). The committed data and plots are reference outputs from the declared baseline. Results change when assumptions change.
 
 ## Next validation steps
 
