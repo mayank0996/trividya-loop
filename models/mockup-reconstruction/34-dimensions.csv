@@ -1,0 +1,36 @@
+feature,dimension,estimated_full_scale_mm,confidence,basis
+overall_envelope_with_top_bridge,W,1500,low,estimated from photos
+overall_envelope_with_top_bridge,L,2050,low,estimated from photos
+overall_envelope_with_top_bridge,H,2235,low,estimated from photos
+main_body,W,1200,low,estimated from photos
+main_body,L,1830,low,estimated from photos
+main_body,H,1900,low,estimated from photos
+lower_shell,W,1160,low,estimated from photos
+lower_shell,L,1120,low,estimated from photos
+lower_shell,H,900,low,estimated from photos
+side_plywood_thickness,value,30,medium (visually plywood-like),estimated from photos
+canopy_skin_thickness,value,18,low,estimated from photos
+front_window,W,470,low,estimated from photos
+front_window,H,300,low,estimated from photos
+top_bridge_wing,W,1500,low,estimated from photos
+top_bridge_wing,depth,430,low,estimated from photos
+top_bridge_wing,thickness,65,low,estimated from photos
+top_bridge_wing,height_to_top,2202,low,estimated from photos
+bridge_support_spacing_center_to_center,value,860,low,estimated from photos
+rear_equipment_shelf,W,1140,low,estimated from photos
+rear_equipment_shelf,depth,300,low,estimated from photos
+rear_equipment_shelf,H,130,low,estimated from photos
+rear_equipment_bay_each,W,410,low,estimated from photos
+rear_equipment_bay_each,depth,330,low,estimated from photos
+rear_equipment_bay_each,H,260,low,estimated from photos
+rear_service_backplate,W,900,low,estimated from photos
+rear_service_backplate,H,720,low,estimated from photos
+rear_upper_service_door,W,620,low,estimated from photos
+rear_upper_service_door,H,360,low,estimated from photos
+rear_lower_service_door,W,530,low,estimated from photos
+rear_lower_service_door,H,360,low,estimated from photos
+rear_fan_diameter,value,156,low,estimated from photos
+top_fan_diameter,value,170,low,estimated from photos
+side_light_pod_diameter,value,150,low,estimated from photos
+hazard_label_panel,W,410,low,estimated from photos
+hazard_label_panel,H,120,low,estimated from photos

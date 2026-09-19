@@ -1,0 +1,129 @@
+{
+  "title": "Trividya physical mockup replica v1",
+  "basis": "Seven user-supplied reference photos; no tape, ruler, known part dimension, photogrammetry, or calibrated camera data supplied. Every dimension below is estimated.",
+  "accuracy_notice": "Visual replica only. Do not use for fabrication, fit, safety, engineering clearance, or dimensional claims without physical measurement.",
+  "units": "millimetres",
+  "coordinate_system": "X width, Y front-to-rear, Z ground-up",
+  "model_scale": "1:10",
+  "estimated_full_scale_dimensions_mm": {
+    "overall_envelope_with_top_bridge": {
+      "W": 1500,
+      "L": 2050,
+      "H": 2235,
+      "confidence": "low"
+    },
+    "main_body": {
+      "W": 1200,
+      "L": 1830,
+      "H": 1900,
+      "confidence": "low"
+    },
+    "lower_shell": {
+      "W": 1160,
+      "L": 1120,
+      "H": 900,
+      "confidence": "low"
+    },
+    "side_plywood_thickness": {
+      "value": 30,
+      "confidence": "medium (visually plywood-like)"
+    },
+    "canopy_skin_thickness": {
+      "value": 18,
+      "confidence": "low"
+    },
+    "front_window": {
+      "W": 470,
+      "H": 300,
+      "confidence": "low"
+    },
+    "top_bridge_wing": {
+      "W": 1500,
+      "depth": 430,
+      "thickness": 65,
+      "height_to_top": 2202,
+      "confidence": "low"
+    },
+    "bridge_support_spacing_center_to_center": {
+      "value": 860,
+      "confidence": "low"
+    },
+    "rear_equipment_shelf": {
+      "W": 1140,
+      "depth": 300,
+      "H": 130,
+      "confidence": "low"
+    },
+    "rear_equipment_bay_each": {
+      "W": 410,
+      "depth": 330,
+      "H": 260,
+      "confidence": "low"
+    },
+    "rear_service_backplate": {
+      "W": 900,
+      "H": 720,
+      "confidence": "low"
+    },
+    "rear_upper_service_door": {
+      "W": 620,
+      "H": 360,
+      "confidence": "low"
+    },
+    "rear_lower_service_door": {
+      "W": 530,
+      "H": 360,
+      "confidence": "low"
+    },
+    "rear_fan_diameter": {
+      "value": 156,
+      "confidence": "low"
+    },
+    "top_fan_diameter": {
+      "value": 170,
+      "confidence": "low"
+    },
+    "side_light_pod_diameter": {
+      "value": 150,
+      "confidence": "low"
+    },
+    "hazard_label_panel": {
+      "W": 410,
+      "H": 120,
+      "confidence": "low"
+    }
+  },
+  "model_dimensions_mm_at_1_to_10": "All full-scale numbers divided by 10. STL/OBJ vertices are in these model-space millimetres.",
+  "observed_features_modeled": [
+    "plywood side shell",
+    "strongly curved/sloped black canopy",
+    "small trapezoidal front window",
+    "broad rectangular top bridge/tail",
+    "white side and rear panels",
+    "bridge supports",
+    "rear equipment shelf and bays",
+    "top and rear fans/vents",
+    "rear service doors, openings and handles",
+    "side light/sensor pods",
+    "top sensor bar",
+    "hazard-labeled lower service region"
+  ],
+  "explicit_exclusions": [
+    "tube",
+    "guideway",
+    "maglev hardware",
+    "healthcare functions",
+    "concept overlays",
+    "unseen internal structure",
+    "wiring detail",
+    "brand/word decals"
+  ],
+  "mesh_notes": {
+    "merged_stl": "Single printable/importable mesh made from intersecting closed solids. Components are not boolean-unioned to preserve robustness and low complexity in Tinkercad.",
+    "grouped_obj": "Named objects/groups with MTL colors.",
+    "editable_subsystems": "Six subsystem STLs; import separately to recolor, reposition or replace.",
+    "watertight_strategy": "Each source part is a closed primitive; merged STL is a concatenation of closed solids and may contain internal/intersecting shells."
+  },
+  "part_count": 63,
+  "triangle_count": 2364
+}
