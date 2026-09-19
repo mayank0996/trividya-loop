@@ -1,0 +1,13 @@
+{
+ "t_total_min": 80.1,
+ "t_accel_min": null,
+ "d_accel_km": 52.7,
+ "d_cruise_km": 1344.6,
+ "d_brake_km": 52.7,
+ "E_traction_kWh": 22.3,
+ "E_regen_kWh": 6.4,
+ "E_lev_kWh": 1.0,
+ "E_aux_kWh": 1.3,
+ "E_net_kWh": 18.2,
+ "peak_power_kW": 277.1
+}

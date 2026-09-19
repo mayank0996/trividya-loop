@@ -1,0 +1,8 @@
+stream,bitrate_Mbps,data_per_80min_trip_MB
+"12-lead ECG (500 Hz, 16 bit)",0.096,57.6
+SpO2 + pleth waveform,0.008,4.8
+NIBP / capnography / temp,0.005,3.0
+Pod state + location telemetry,0.032,19.2
+Audio channel (compressed),0.032,19.2
+2x 1080p H.264 video,4.0,2400.0
+TOTAL,4.173,2504.0
