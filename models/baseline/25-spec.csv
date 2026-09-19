@@ -1,0 +1,18 @@
+parameter,nominal,bounds_lo,bounds_hi,unit,status
+pod_overall_length,3500,,,mm,assumed [MEASURE]
+pod_nose_length,600,,,mm,assumed
+pod_cabin_length,2200,,,mm,assumed
+pod_tail_length,700,,,mm,assumed
+pod_body_diameter,1300,,,mm,assumed [MEASURE]
+pod_shell_wall_thickness,8,,,mm,assumed [MEASURE]
+pod_loaded_mass,750,400,1500,kg,assumed [MEASURE]
+pod_frontal_area,1.327,,,m2,derived from diameter
+pod_surface_area,15,10,20,m2,estimated
+guideway_width,1000,,,mm,assumed
+tube_inner_diameter,4000,3000,5000,mm,assumed
+tube_operating_pressure,100,10,1000,Pa,assumed
+levitation_gap,10,5,20,mm,assumed [MEASURE on rig]
+lateral_guidance_gap,10,,,mm,assumed
+stretcher_length,1900,,,mm,assumed
+tube_section_length,30,,,m,assumed
+support_spacing,15,,30,m,assumed

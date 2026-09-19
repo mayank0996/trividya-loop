@@ -1,0 +1,46 @@
+{
+  "spec": "Trividya-Loop 3D baseline specification",
+  "version": "1.0",
+  "date": "2026-09-19",
+  "status": "ASSUMED BASELINE - built-mockup dimensions not yet measured; values marked [MEASURE] must come from Mayank's hardware",
+  "units": "millimetres unless noted",
+  "coordinate_system": "origin at pod nose tip, x aft (pod axis), y lateral, z up; guideway top surface at z=0",
+  "pod": {
+    "overall_length": 3500,
+    "nose_length": 600, "cabin_length": 2200, "tail_length": 700,
+    "body_diameter": 1300, "frontal_area_m2": 1.327, "surface_area_m2_est": 15.0,
+    "shell_wall_thickness_assumed": 8, "loaded_mass_kg_assumed": 750, "mass_bounds_kg": [400, 1500]
+  },
+  "guideway": {"width": 1000, "top_z": 0, "lsm_stator_segments_length": 3000},
+  "tube": {"inner_diameter": 4000, "section_length_m": 30, "support_spacing_m": [15, 30],
+           "operating_pressure_Pa": 100, "pressure_bounds_Pa": [10, 1000]},
+  "gaps": {"levitation_gap_nominal": 10, "levitation_gap_bounds": [5, 20], "lateral_guidance_gap": 10},
+  "assemblies": [
+    {"id": "A1", "name": "pod pressure shell", "bbox": "3500 x 1300 dia", "zone": "whole body", "notes": "nose cone + cylindrical cabin + tail cone"},
+    {"id": "A2", "name": "medical bay", "bbox": "1600 x 1100 x 1100", "zone": "cabin x=750-2350", "notes": "stretcher 1900 + attendant seat; restraint hardpoints"},
+    {"id": "A3", "name": "levitation/guidance modules", "count": 4, "bbox_each": "280 x 200 x 120", "zone": "underbody x=610-1150, 1310-1710, 2010-2310, 2710-2990", "notes": "EMS magnet modules; gap sensor each"},
+    {"id": "A4", "name": "LSM reaction rail (pod side)", "bbox": "2600 x 400 x 40", "zone": "underbody centre", "notes": "pairs with trackside stator"},
+    {"id": "A5", "name": "battery + thermal bay", "bbox": "680 x 900 x 900", "zone": "tail x=2420-3100", "notes": "radiator panels on skin, eps 0.85"},
+    {"id": "A6", "name": "sensor/comms rack", "bbox": "550 x 300 x 280", "zone": "cabin fwd upper", "notes": "edge node, encrypt, store-and-forward"},
+    {"id": "A7", "name": "eddy-current emergency brake", "bbox": "1200 x 300 x 60", "zone": "underbody aft", "notes": "independent of LSM"},
+    {"id": "A8", "name": "egress/loading door", "bbox": "700 x 360", "zone": "cabin lower side x=1100-1800", "notes": "manual release inside+outside"},
+    {"id": "T1", "name": "tube section", "bbox": "4000 dia x 30000", "notes": "steel, external-pressure buckling design required [ANALYSIS]"},
+    {"id": "T2", "name": "station airlock", "notes": "pressure equalization chamber sized for pod + attendants"},
+    {"id": "T3", "name": "vacuum pumping + isolation valve station", "spacing_km": [20, 30]}
+  ],
+  "annotations_for_tinkercad": [
+    "label every assembly A1-A8 with its ID and name",
+    "show levitation gap callout 10 mm nominal (5-20 bounds)",
+    "show overall length 3.50 m and body dia 1.30 m dimension lines",
+    "include 1.7 m human figure for scale beside pod",
+    "mark [MEASURE] tag on shell thickness, mass, gap until hardware data arrives",
+    "caption: concept model per 3D baseline spec v1.0 - not a validated design"
+  ],
+  "open_measurements": [
+    "built mockup: length, diameter, wall thickness, shell mass",
+    "motor/magnet hardware actually used (if any), coil currents, pole pitch",
+    "any existing track rig: length, gauge, materials",
+    "battery packs: chemistry, capacity, mass",
+    "sensor list actually integrated"
+  ]
+}
