@@ -2,6 +2,20 @@
 
 **A student engineering concept for high-speed emergency patient transport.**
 
+## Start here
+
+### Project reports and design studies
+
+1. [TRV-005: Project report](documents/papers/1-TRV-005-Project-Report.pdf)
+2. [TRV-006: Design research](documents/papers/2-TRV-006-Design-Research.pdf)
+3. [TRV-011: Magnetic catch and staged braking](documents/papers/3-TRV-011-Magnetic-Catch-and-Staged-Braking.pdf)
+4. [TRV-012: Tube and metro-pier structure](documents/papers/4-TRV-012-Tube-and-Metro-Pier-Structure.pdf)
+5. [TRV-017: Screening in transit and hospital queues](documents/papers/5-TRV-017-Screening-in-Transit-and-Hospital-Queues.pdf)
+
+### Early handwritten concept sketches
+
+[Original handwritten concept sketches (9 pages)](drawings/original-sketches/6-Trividya-Early-Handwritten-Concept-Sketches.pdf)
+
 > [!IMPORTANT]
 > Trividya-Loop is supported by a person-scale pod mockup, reconstructed drawings, baseline 3D models and exploratory calculations. It is **not** an operational Hyperloop, vacuum transport, levitation or clinical system. Simulation outputs are assumption-driven and are not physical validation.
 
